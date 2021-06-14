@@ -1,0 +1,60 @@
+@charset "utf-8";
+$phone: "only screen and (max-width:640px)";
+$tablet: "only screen and (min-width:641px) and (max-width:959px)";
+$pc: "only screen and (min-width:960px)";
+
+body{
+  @include ieTableSupport;//behavior display-table.htc,if Lte IE7 support
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.pc{
+  display: block !important;
+}
+
+.sp{
+  display: none !important;
+}
+
+
+
+
+@media #{$phone}{
+  .pc{
+    display: none !important;
+  }
+  .sp{
+    display: block !important;
+  }
+}
+
+@mixin fz($size: 16) {
+  font-size: ($size / 10) + rem;
+  // font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-family: 'Noto Sans JP';
+}
+
+
+// body{
+//   font-family: "Helvetica Neue",
+//     Arial,
+//     "Hiragino Kaku Gothic ProN",
+//     "Hiragino Sans",
+//     Meiryo,
+//     sans-serif;
+// }
+
+@mixin fz($size: 16) {
+  font-size: ($size / 10) + rem;
+}
+
+#header {
+
+}//#header
+
+#footer {
+
+}//#header
