@@ -86,6 +86,9 @@ section#summary .box .inner .description h3 span {
           box-sizing: border-box;
   margin-right: 10px;
 }
+section#summary .box .inner .description h3 span .attention {
+  display: none;
+}
 section#summary .box .inner .description p {
   font-size: 2rem;
   color: #1c2d6e;
@@ -646,6 +649,9 @@ section#footer .box .right li {
             box-sizing: border-box;
     margin-right: 10px;
   }
+  section#summary .box .inner .description h3 span .attention {
+    display: none;
+  }
   section#summary .box .inner .description p {
     font-size: 1.8rem;
     color: #1c2d6e;
@@ -1073,7 +1079,7 @@ section#footer .box .right li {
     padding: 40px 0 30px 0;
   }
   section#summary .box .inner .description h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     color: #1c2d6e;
     line-height: 1.8;
   }
@@ -1085,6 +1091,9 @@ section#footer .box .right li {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     margin-right: 10px;
+  }
+  section#summary .box .inner .description h3 span .attention {
+    display: block;
   }
   section#summary .box .inner .description p {
     font-size: 1.6rem;
@@ -1300,6 +1309,7 @@ section#footer .box .right li {
   }
   section#constraction .content p {
     margin-bottom: 35px;
+    padding: 0 10px;
   }
   section#constraction .content .explanation {
     text-align: center;
@@ -1333,7 +1343,7 @@ section#footer .box .right li {
     padding: 0 15px;
   }
   section#case h3 {
-    padding: 0 15px;
+    padding: 0 10px;
     font-size: 1.6rem;
     text-align: left;
   }
@@ -1352,7 +1362,7 @@ section#footer .box .right li {
   }
   section#flow h1 {
     font-size: 3rem;
-    margin-bottom: 125px;
+    margin-bottom: 65px;
   }
   section#flow .container {
     width: 90%;

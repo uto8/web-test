@@ -62,6 +62,9 @@ section#summary{
             padding: 5px 10px;
             box-sizing: border-box;
             margin-right: 10px;
+            .attention{
+              display:none;
+            }
           }
         }
         p{
@@ -617,6 +620,9 @@ section#footer{
               padding: 5px 10px;
               box-sizing: border-box;
               margin-right: 10px;
+              .attention{
+                display:none;
+              }
             }
           }
           p{
@@ -1040,7 +1046,7 @@ section#president{
           text-align: center;
           padding: 40px 0 30px 0;
           h3{
-            @include fz(18);
+            @include fz(17);
             color: #1c2d6e;
             line-height: 1.8;
             span{
@@ -1050,7 +1056,11 @@ section#president{
               padding: 5px 10px;
               box-sizing: border-box;
               margin-right: 10px;
+              .attention{
+                display:block;
+              }
             }
+
           }
           p{
             @include fz(16);
@@ -1261,6 +1271,7 @@ section#president{
       width:90%;
       p{
         margin-bottom:35px;
+        padding:0 10px;
       }
       .explanation{
         text-align: center;
@@ -1296,7 +1307,7 @@ section#president{
     }
     h3{
       // line-height: 1.6;
-      padding:0 15px;
+      padding:0 10px;
       @include fz(16);
       text-align:left;
     }
@@ -1316,7 +1327,7 @@ section#president{
     padding:0 15px 120px 15px;
     h1{
       @include fz(30);
-      margin-bottom:125px;
+      margin-bottom:65px;
     }
     .container{
       width:90%;
