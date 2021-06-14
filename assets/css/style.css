@@ -614,6 +614,44 @@ section#footer .box .right li {
   }
 }
 @media only screen and (min-width:641px) and (max-width:959px) {
+  section#summary {
+    padding-bottom: 100px;
+  }
+  section#summary h1 {
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+  section#summary .box .inner h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1c2d6e;
+    padding: 20px 0;
+  }
+  section#summary .box .inner .description {
+    border-top: 1px solid #1c2d6e;
+    text-align: center;
+    padding: 40px 0 30px 0;
+  }
+  section#summary .box .inner .description h3 {
+    font-size: 1.6rem;
+    color: #1c2d6e;
+    line-height: 1.8;
+  }
+  section#summary .box .inner .description h3 span {
+    font-size: 1.8rem;
+    background: #f74000;
+    color: #fff;
+    padding: 5px 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 10px;
+  }
+  section#summary .box .inner .description p {
+    font-size: 1.8rem;
+    color: #1c2d6e;
+    line-height: 1.8;
+  }
+
   section#feature1 {
     padding: 135px 15px 90px 15px;
     -webkit-box-sizing: border-box;
@@ -626,7 +664,7 @@ section#footer .box .right li {
     padding: 0;
   }
   section#feature1 .box .inner h6 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 42px;
   }
   section#feature1 .box .inner .container {
@@ -654,7 +692,7 @@ section#footer .box .right li {
     font-size: 2rem;
   }
   section#feature1 .box .inner .content p {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   section#feature2 {
@@ -704,6 +742,7 @@ section#footer .box .right li {
     background-color: #1c2d6e;
     padding: 5px 35px;
     border-radius: 20px;
+    font-size: 1.6rem;
   }
   section#feature2 .row .img-content h4 {
     margin-bottom: 35px;
@@ -730,7 +769,7 @@ section#footer .box .right li {
   }
   section.main1 h5 {
     width: 135px;
-    margin: 0 auto 50px auto;
+    margin: 0 auto 90px auto;
     font-size: 1.4rem;
   }
   section.main1 .content {
@@ -771,13 +810,15 @@ section#footer .box .right li {
     bottom: -115px;
   }
   section.main1 .main-content2 h3 {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 20;
     -webkit-transform: translateY(0);
             transform: translateY(0);
     text-align: center;
     padding-right: 0;
     padding: 0;
+  }
+  section.main1 .main-content2 h3 p {
+    font-size: 2.2rem;
   }
   section.main1 .main-content2 .image-content {
     max-width: 475px;
@@ -815,14 +856,14 @@ section#footer .box .right li {
   }
   section#constraction h3 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-bottom: 35px;
   }
   section#constraction .content {
     padding: 30px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     max-width: 960px;
     margin: 0 auto;
     width: 90%;
@@ -836,7 +877,7 @@ section#footer .box .right li {
   }
   section#constraction .content .explanation p {
     margin-bottom: 0;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
   section#constraction .content .images .img {
     padding: 5px;
@@ -853,11 +894,12 @@ section#footer .box .right li {
     font-size: 5rem;
   }
   section#case h2 {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 25px;
   }
   section#case h3 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    padding: 0 15px;
   }
   section#case .row {
     padding-top: 30px;
@@ -898,7 +940,7 @@ section#footer .box .right li {
             box-sizing: border-box;
   }
   section#flow .container .item p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     line-height: 1.8;
   }
 
@@ -910,7 +952,7 @@ section#footer .box .right li {
     background-image: none;
     background-position: center bottom;
     background-size: cover;
-    padding: 100px 15px 75px 15px;
+    padding: 0 15px 75px 15px;
   }
   section#president .box {
     display: block;
@@ -927,16 +969,16 @@ section#footer .box .right li {
     background-color: #1c2d6e;
   }
   section#president .sentence h1 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     margin-bottom: 40px;
   }
   section#president .sentence p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 50px;
     line-height: 1.8;
   }
   section#president .sentence h4 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   section#contact-title {
@@ -1012,6 +1054,48 @@ section#footer .box .right li {
   }
 }
 @media only screen and (max-width:640px) {
+  section#summary {
+    padding-bottom: 100px;
+  }
+  section#summary h1 {
+    margin-top: 90px;
+    margin-bottom: 60px;
+  }
+  section#summary .box .inner h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #1c2d6e;
+    padding: 20px 0;
+  }
+  section#summary .box .inner .description {
+    border-top: 1px solid #1c2d6e;
+    text-align: center;
+    padding: 40px 0 30px 0;
+  }
+  section#summary .box .inner .description h3 {
+    font-size: 1.8rem;
+    color: #1c2d6e;
+    line-height: 1.8;
+  }
+  section#summary .box .inner .description h3 span {
+    font-size: 1.6rem;
+    background: #f74000;
+    color: #fff;
+    padding: 5px 10px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 10px;
+  }
+  section#summary .box .inner .description p {
+    font-size: 1.6rem;
+    color: #1c2d6e;
+    line-height: 1.8;
+    text-align: left;
+  }
+  section#summary .box .inner .description p br {
+    display: none;
+  }
+
   section#feature1 {
     padding: 100px 15px 50px 15px;
     -webkit-box-sizing: border-box;
@@ -1024,7 +1108,7 @@ section#footer .box .right li {
     padding: 0;
   }
   section#feature1 .box .inner h6 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 42px;
   }
   section#feature1 .box .inner .container {
@@ -1068,9 +1152,10 @@ section#footer .box .right li {
     margin: 0 auto;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    text-align: center;
   }
   section#feature2 .row img {
-    width: 100%;
+    width: 80%;
     margin-bottom: 50px;
   }
   section#feature2 .row .img-content {
@@ -1089,11 +1174,12 @@ section#footer .box .right li {
   }
   section#feature2 .row .img-content h4 {
     margin-bottom: 35px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
   }
   section#feature2 .row .img-content p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    text-align: left;
   }
 
   section.main1 {
@@ -1108,12 +1194,12 @@ section#footer .box .right li {
   }
   section.main1 h4 {
     margin-bottom: 15px;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   section.main1 h5 {
     width: 135px;
-    margin: 0 auto 50px auto;
-    font-size: 1rem;
+    margin: 0 auto 70px auto;
+    font-size: 1.4rem;
   }
   section.main1 .content {
     position: relative;
@@ -1153,9 +1239,9 @@ section#footer .box .right li {
     bottom: -115px;
   }
   section.main1 .main-content2 h3 {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    transform: translateY(0);
     -webkit-transform: translateY(0);
-            transform: translateY(0);
     text-align: center;
     padding-right: 0;
     padding: 0;
@@ -1200,14 +1286,14 @@ section#footer .box .right li {
     margin-bottom: 25px;
   }
   section#constraction h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 35px;
   }
   section#constraction .content {
     padding: 30px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     max-width: 960px;
     margin: 0 auto;
     width: 90%;
@@ -1219,10 +1305,11 @@ section#footer .box .right li {
     text-align: center;
     padding: 15px 0;
     margin-bottom: 15px;
+    text-align: left;
   }
   section#constraction .content .explanation p {
     margin-bottom: 0;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
   section#constraction .content .images .img {
     padding: 5px;
@@ -1247,6 +1334,8 @@ section#footer .box .right li {
   }
   section#case h3 {
     padding: 0 15px;
+    font-size: 1.6rem;
+    text-align: left;
   }
   section#case .row {
     padding-top: 30px;
@@ -1277,12 +1366,14 @@ section#footer .box .right li {
     padding: 15px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+    text-align: center;
   }
   section#flow .container .item img {
-    width: 100%;
+    width: 50%;
   }
   section#flow .container .item p {
-    font-size: 2rem;
+    text-align: left;
+    font-size: 1.6rem;
     line-height: 1.8;
     color: #1c2d6e;
   }
@@ -1295,7 +1386,7 @@ section#footer .box .right li {
     background-image: none;
     background-position: center bottom;
     background-size: cover;
-    padding: 100px 15px 75px 15px;
+    padding: 0 15px 75px 15px;
   }
   section#president .box {
     display: block;
@@ -1312,16 +1403,16 @@ section#footer .box .right li {
     background-color: #1c2d6e;
   }
   section#president .sentence h1 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-bottom: 40px;
   }
   section#president .sentence p {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin-bottom: 50px;
     line-height: 1.8;
   }
   section#president .sentence h4 {
-    font-size: 1.7rem;
+    font-size: 1.6rem;
   }
 
   section#contact-title {
@@ -1343,7 +1434,7 @@ section#footer .box .right li {
     font-weight: bold;
   }
   section#contact-title h3 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-bottom: 50px;
   }
   section#contact-title .phone-number {
