@@ -570,6 +570,49 @@ section#contact #form_submit_button:hover {
   /* 文字色     */
 }
 
+section#footer {
+  background-color: #1c2d6e;
+  color: white;
+  padding: 50px 15px;
+}
+section#footer .box {
+  max-width: 1067px;
+  margin: 0 auto;
+}
+section#footer .box .left p {
+  font-size: 1.3rem;
+}
+section#footer .box .right p {
+  font-size: 1.8rem;
+}
+section#footer .box .right li {
+  font-size: 1.3rem;
+}
+
+@media (min-width: 641px) {
+  section#footer {
+    margin-top: 120px;
+  }
+  section#footer .box {
+    margin: 0 auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section#footer .box .left {
+    width: 70%;
+    position: relative;
+  }
+  section#footer .box .left p {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 0;
+  }
+  section#footer .box .right {
+    width: 30%;
+  }
+}
 @media only screen and (min-width:641px) and (max-width:959px) {
   section#feature1 {
     padding: 135px 15px 90px 15px;
@@ -1350,6 +1393,24 @@ section#contact #form_submit_button:hover {
     display: inline-block;
     width: 100%;
     font-size: 1.8rem;
+  }
+
+  #footer {
+    margin-top: 50px;
+  }
+  #footer .box {
+    display: block !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  #footer .box .right {
+    width: 100%;
+  }
+  #footer .box .left {
+    width: 100%;
   }
 }
 @media (min-width: 1690px) {

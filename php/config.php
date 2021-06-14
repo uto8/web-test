@@ -5,7 +5,7 @@
 
 
 //【必須】 自分のメールアドレスの設定 -- 複数のメールアドレスに送信したい場合は、以下の行をコピーして増やしていけばOKです。行頭の//を消せば有効となります。いくつでも追加可能。 --
-$rm_send_address[] = 'ito@ex-field.co.jp';
+$rm_send_address[] = 'zensimada@icloud.com';
 //$rm_send_address[] = 'aaa@example.co.jp';
 //$rm_send_address[] = 'bbb@example.co.jp';
 
@@ -109,11 +109,3 @@ EOM;
 //【任意】 メールフォームを設置するサイトのドメイン -- 記入した場合はリファラチェック機能が有効になります。 --
 $rm_domain_name = '';
 //$rm_domain_name = '1-firststep.com';
-
-
-
-
-
-
-
-

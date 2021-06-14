@@ -537,6 +537,56 @@ section#contact{
 }//#contact
 
 
+section#footer{
+  background-color:#1c2d6e;
+  color:white;
+  padding:50px 15px;
+  .box{
+    max-width:1067px;
+    margin:0 auto;
+    .left{
+      p{
+        @include fz(13);
+      }
+    }
+    .right{
+      p{
+        @include fz(18);
+      }
+      li{
+        @include fz(13);
+      }
+    }
+  }
+
+}
+
+
+@media(min-width:641px){
+
+  section#footer{
+    margin-top:120px;
+    .box{
+      margin:0 auto;
+      width:90%;
+      display:flex;
+      .left{
+        width:70%;
+        position:relative;
+        p{
+          @include fz(13);
+          position:absolute;
+          bottom:0;
+        }
+      }
+      .right{
+        width:30%;
+      }
+    }
+
+  }
+}
+
 @media #{$tablet}{
 
 
@@ -1301,6 +1351,21 @@ section#president{
       @include fz(18);
     }//#form_submit_button
   }//#contact
+  #footer{
+    margin-top:50px;
+    .box{
+      display:block!important;
+      flex-direction:column-reverse;
+      text-align: center;
+      .right{
+        width:100%;
+
+      }
+      .left{
+        width:100%;
+      }
+    }
+  }
 }
 @media(min-width:1690px){
   section#president{
