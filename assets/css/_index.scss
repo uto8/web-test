@@ -4,6 +4,12 @@ $tablet: "only screen and (min-width:641px) and (max-width:959px)";
 $pc: "only screen and (min-width:960px)";
 //breakpoint setting: example @media #{$hoge}{css propaty}
 //
+
+
+
+.br-phone{
+  display:none;
+}
 #main_visual{
   background: url(../images/mv_bg.jpg)no-repeat center left;
   background-size: cover;
@@ -152,6 +158,7 @@ section#feature2{
     .merit{
        text-align:center;
        margin-bottom:25px;
+       @include fz(13);
        span{
         background-color: #1c2d6e;
         padding:5px 35px;
@@ -711,11 +718,11 @@ section#footer{
          margin-bottom:25px;
          margin-right:auto;
          margin-left:auto;
+         @include fz(12);
          span{
           background-color: #1c2d6e;
           padding:5px 35px;
           border-radius:20px;
-          @include fz(16);
         }
       }
       h4{
@@ -1027,6 +1034,9 @@ section#president{
 
 
 @media #{$phone}{
+  .br-phone{
+    display:block;
+  }
   section#summary{
     padding-bottom:100px;
     h1{
@@ -1140,6 +1150,7 @@ section#president{
       .merit{
          text-align:center;
          margin-bottom:25px;
+         @include fz(12);
          span{
           background-color: #1c2d6e;
           padding:5px 35px;
@@ -1248,7 +1259,7 @@ section#president{
     padding:100px 15px 0 15px;
     margin-bottom:135px;
     h1{
-      @include fz(40);
+      @include fz(30);
       text-align: center;
       font-weight: bold;
       margin-bottom:12px;

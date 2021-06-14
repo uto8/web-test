@@ -20,6 +20,10 @@ html {
     display: block !important;
   }
 }
+.br-phone {
+  display: none;
+}
+
 #main_visual {
   background: url(../images/mv_bg.jpg) no-repeat center left;
   background-size: cover;
@@ -173,6 +177,7 @@ section#feature2 .row .img-content {
 section#feature2 .row .img-content .merit {
   text-align: center;
   margin-bottom: 25px;
+  font-size: 1.3rem;
 }
 section#feature2 .row .img-content .merit span {
   background-color: #1c2d6e;
@@ -743,12 +748,12 @@ section#footer .box .right li {
     margin-bottom: 25px;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1.2rem;
   }
   section#feature2 .row .img-content .merit span {
     background-color: #1c2d6e;
     padding: 5px 35px;
     border-radius: 20px;
-    font-size: 1.6rem;
   }
   section#feature2 .row .img-content h4 {
     margin-bottom: 35px;
@@ -1060,6 +1065,10 @@ section#footer .box .right li {
   }
 }
 @media only screen and (max-width:640px) {
+  .br-phone {
+    display: block;
+  }
+
   section#summary {
     padding-bottom: 100px;
   }
@@ -1175,6 +1184,7 @@ section#footer .box .right li {
   section#feature2 .row .img-content .merit {
     text-align: center;
     margin-bottom: 25px;
+    font-size: 1.2rem;
   }
   section#feature2 .row .img-content .merit span {
     background-color: #1c2d6e;
@@ -1284,7 +1294,7 @@ section#footer .box .right li {
     margin-bottom: 135px;
   }
   section#constraction h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: bold;
     margin-bottom: 12px;
